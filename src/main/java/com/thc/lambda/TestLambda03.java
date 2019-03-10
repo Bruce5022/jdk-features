@@ -22,8 +22,10 @@ public class TestLambda03 {
     public static void main(String[] args) {
 //        test01();
 //        test02()
-        test03();
+//        test03();
+//        test04();
 
+        test05();
     }
 
     /**
@@ -54,6 +56,21 @@ public class TestLambda03 {
         for (Employee emp : emps) {
             System.out.println(emp);
         }
+    }
+
+    /**
+     * 优化2：用lambda表达式
+     */
+    private static void test04() {
+        List<Employee> emps = filterEmployees(employees, (x) -> x.getAge() >= 25);
+        emps.forEach(System.out::println);
+    }
+
+    /**
+     * 优化3：用stream api优化
+     */
+    private static void test05() {
+        employees.stream().filter((x) -> x.getAge() >= 25).forEach(System.out::println);
     }
 
     // 需求1：获取当前公司中，员工年龄大于35的员工信息
@@ -88,5 +105,6 @@ public class TestLambda03 {
         }
         return emps;
     }
+
 
 }
