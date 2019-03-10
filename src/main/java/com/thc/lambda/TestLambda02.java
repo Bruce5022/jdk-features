@@ -30,7 +30,9 @@ public class TestLambda02 {
 
         MathOperation addOp = (num1, num2) -> num1 + num2;
         MathOperation subOp = (num1, num2) -> num1 - num2;
-        MathOperation mulOp = (num1, num2) -> (num1 * num2);
+        MathOperation mulOp = (num1, num2) -> {
+            return num1 * num2;
+        };
         MathOperation divOp = (num1, num2) -> (num1 * num2);
 
         System.out.println(addOp.operation(2, 3));
