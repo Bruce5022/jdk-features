@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d65d78-18bc-4fb1-b11a-18aba11c0d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/Demo02Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/Demo03Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/MyFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/MyFunction2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,7 +37,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="789" />
+          <entry key="JAVA" value="791" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -64,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/Demo02Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            <state relative-caret-position="216">
+              <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
               <folding>
                 <element signature="e#173#174#0" expanded="true" />
                 <element signature="e#219#220#0" expanded="true" />
@@ -86,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/Demo03Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="12" />
               <folding>
                 <element signature="e#207#208#0" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
@@ -334,7 +331,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562595245061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562595391439" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -450,16 +447,23 @@
       <workItem from="1554299248577" duration="2151000" />
       <workItem from="1562464723472" duration="5083000" />
       <workItem from="1562541201137" duration="5924000" />
-      <workItem from="1562593812088" duration="1306000" />
+      <workItem from="1562593812088" duration="1570000" />
     </task>
+    <task id="LOCAL-00001" summary="练习">
+      <created>1562595354408</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562595354408</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25488000" />
+    <option name="totallyTimeSpent" value="25752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="677" y="49" width="1400" height="928" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -496,6 +500,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Function.java">
@@ -647,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/MyFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -664,10 +665,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/MyFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/Demo02Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        <state relative-caret-position="216">
+          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
           <folding>
             <element signature="e#173#174#0" expanded="true" />
             <element signature="e#219#220#0" expanded="true" />
@@ -684,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thc/jdk8/step01/Demo03Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="12" />
           <folding>
             <element signature="e#207#208#0" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
