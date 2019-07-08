@@ -59,6 +59,22 @@ public class TestLambda03 {
     }
 
     /**
+     * 匿名内部类
+     */
+    private static void test06() {
+        List<Employee> emps = filterEmployees(employees, new MyPredicate<Employee>() {
+            @Override
+            public boolean test(Employee employee) {
+                return employee.getAge() >= 35;
+            }
+        });
+        for (Employee emp : emps) {
+            System.out.println(emp);
+        }
+    }
+
+
+    /**
      * 优化2：用lambda表达式
      */
     private static void test04() {

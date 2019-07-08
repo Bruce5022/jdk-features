@@ -1,7 +1,7 @@
 package com.thc.lambda;
 
-import com.thc.service.GreetingService;
 import com.thc.service.MathOperation;
+import com.thc.service.GreetingService;
 
 /**
  * lambda表达式实现自定义接口的使用

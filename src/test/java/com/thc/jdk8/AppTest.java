@@ -1,4 +1,4 @@
-package com.thc;
+package com.thc.jdk8;
 
 import static org.junit.Assert.assertTrue;
 
